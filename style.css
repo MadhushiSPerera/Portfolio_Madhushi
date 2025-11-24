@@ -288,6 +288,21 @@ span{
     margin:1rem 0 3rem;
 }
 
+/*portfolio Section Code*/
+
+.portfolio{
+    background:var(--bg-color);
+}
+
+.portfolio .subtitle{
+    text-align: center;
+}
+
+.portfolio h2{
+    margin-bottom: 3rem;
+    color:var(--main-color);
+}
+
 /*Contact Section Code*/
 
 .contact{
