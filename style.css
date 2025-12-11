@@ -220,6 +220,7 @@ span{
 .heading{
     font-size:6rem;
     text-align:left;
+    text-align: center;
 }
 
 .about-content{
