@@ -301,7 +301,7 @@ span{
 }
 
 .react{
-    width:0%;
+    width:10%;
     animation:react 3s;
 }
 
@@ -326,7 +326,7 @@ span{
 }
 
 .photoshop{
-    width:0%;
+    width:30%;
     animation:react 3s;
 }
 
@@ -434,7 +434,7 @@ span{
     width:fit-content;
     border: 1px solid var(--main-color);
     padding: 14px 50px;
-    border-radius: 6px;
+    border-radius: 5px;
     text-decoration:none;
     color:var(--bg-color);
     transition: background 0.5s;
