@@ -96,6 +96,7 @@ section{
     animation: floatImage 4s ease-in-out infinite;
     transition: 0.4s ease;
     overflow: hidden;
+    z-index: 1;
 }
 
 .home-img img {
@@ -128,6 +129,8 @@ section{
 
 .home-content{
     margin-left:15rem;
+    z-index: 2;
+    position: relative;
 }
 
 .home-content h3{
