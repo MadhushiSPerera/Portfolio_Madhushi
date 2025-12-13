@@ -448,6 +448,7 @@ span{
 
 .contact{
     background:var(--bg-color);
+    margin-top: 60px;
 }
 
 .contact .heading{
