@@ -260,6 +260,30 @@ span{
     color:var(--text-color);
     padding: 20px;
     box-shadow:0 14px 14px var(--main-color),0 7px 7px var(--main-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.skill-card{
+    background: var(--bg-color);
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 14px 28px rgba(191,18,77,0.25);
+    transition: 0.3s ease;
+}
+
+.skill-card:hover{
+    transform: translateY(-8px);
+}
+
+.skill-card h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: var(--main-color);
 }
 
 .skill li{
