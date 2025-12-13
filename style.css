@@ -677,4 +677,9 @@ span{
     }
 }
 
+@media (max-width: 768px){
+    .skill{
+        grid-template-columns: 1fr;
+    }
+}
 
