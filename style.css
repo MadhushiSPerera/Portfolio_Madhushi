@@ -330,6 +330,11 @@ span{
     animation:react 3s;
 }
 
+.illustrator{
+    width:50%;
+    animation:react 3s;
+}
+
 .skill h3{
     text-align: left;
     font-size: 2rem;
