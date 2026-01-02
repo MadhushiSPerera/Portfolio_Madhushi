@@ -375,6 +375,12 @@ span{
 
 }
 
+.portfolio-Container{ 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
 .portfoli h2{
     margin-bottom: 3rem;
     color:var(--main-color);
